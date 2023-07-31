@@ -1,5 +1,5 @@
-import store from "./redux/store.js"; 
-import { increase,decrease,reset } from "./redux/actions/counterActions.js";
+import store from "./store.js"; 
+import { increase,decrease,reset } from "./actions/counterActions.js"
 
 console.log("initial value:",store.getState());
 
